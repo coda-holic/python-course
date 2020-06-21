@@ -1,0 +1,19 @@
+# Hello guys! Here is the source code for the program included in the video 'Barebones of a Python Program' in the course.
+# Try out this code yourself in your IDE!
+
+#This is the structure of a typical program
+
+#Definition of the function Bye():
+def Bye():
+    print('Good Bye! See you again!')
+
+#Main program
+a = 15
+b = a-10
+print(a+3)
+if b>5:
+    print("Value of \'a\' was more than 15 at first")
+else:
+    print("Value of \'a\' was 15 or less at first")
+
+Bye()
