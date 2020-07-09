@@ -1,0 +1,75 @@
+1. <str>.capitalize() : 
+
+It returns a copy of the string <str> with its first letter in capital.
+
+2. <str>.find(sub[,start[,end]]) : 
+
+It returns the lowest index number of the sub-string sub present in the main string <str>. It returns -1 if sub is not present in <str>
+
+3. <str>.isalnum() : 
+
+It returns True if the string <str> is alphanumeric and returns False otherwise
+
+4. <str>.isalpha() : 
+
+It returns True if the string <str> is alphabetical and returns False otherwise
+
+5. <str>.isdigit() : 
+
+It returns True if the string <str> is a digit and returns False otherwise
+
+6. <str>.isspace() : 
+
+It returns True if the string <str> contains only whitespaces (at least one) and returns False otherwise
+
+7. <str>.islower() : 
+
+It returns True if all the characters of the string <str> are in lowercase and returns False otherwise
+
+8. <str>.isupper() : 
+
+It returns True if all the characters of the string <str> are in uppercase and returns False otherwise
+
+9. <str>.istitle() : 
+
+It returns True if the first letter of each word in the string <str> is in uppercase and returns False otherwise
+
+10. <str>.lower() : 
+
+It returns a copy of the string <str> all in lowercase
+
+11. <str>.upper() : 
+
+It returns a copy of the string <str> all in uppercase
+
+12. <str>.title() : 
+
+It returns a copy of the string <str> with the first letter of each word in uppercase
+
+13. <str>.startswith(prefix[,start[,end]]) : 
+
+It returns True if the string <str> starts with the string prefix within the index range specified as (start,end) and returns False otherwise
+
+14. <str.endswith(suffix[,start[,end]]) : 
+
+It returns True if the string <str> ends with the string suffix within the index range specified as (start,end) and returns False otherwise
+
+15. <str>.swapcase() : 
+
+It returns a copy of the string <str> with its cases swapped (i.e., uppercase becomes lowercase and vice-versa)
+
+16. <str>.partition(sep) : 
+
+It returns a tuple containing three elements, the first being the part of the string before the string specified in the sep argument, the second being the sep argument itself and the tird being the part of the string after the string specified in the sep argument
+
+17. <str>.count(sub[,start[,end]]) : 
+
+It returns the number of occurences of the string sub within the index range (start,end)
+
+18. <str>.lstrip([chars]) : 
+
+It returns a copy of the string <str> with the string chars removed from the left side of the string <str>
+
+19. <str>.rstrip([chars]) : 
+
+It returns a copy of the string <str> with the string chars removed from the right side of the string <str>
